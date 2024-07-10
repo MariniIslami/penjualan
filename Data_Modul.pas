@@ -17,6 +17,10 @@ type
     Zkustomer: TZQuery;
     Dssuplier: TDataSource;
     Dskustomer: TDataSource;
+    Zuser: TZQuery;
+    Zbarang: TZQuery;
+    Dsuser: TDataSource;
+    Dsbarang: TDataSource;
   private
     { Private declarations }
   public
@@ -29,7 +33,7 @@ var
 implementation
 
 uses
-  Kategori, satuan;
+  Kategori, satuan, report;
 
 {$R *.dfm}
 

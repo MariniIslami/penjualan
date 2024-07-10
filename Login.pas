@@ -11,10 +11,9 @@ type
     Edit1: TEdit;
     Button1: TButton;
     Button2: TButton;
-    Edit2: TEdit;
     Label1: TLabel;
-    Label2: TLabel;
     procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -51,4 +50,9 @@ begin
   end;
   Form2.Close;
 end;
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+Form2.Close;
+end;
+
 end.

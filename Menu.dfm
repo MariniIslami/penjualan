@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 506
-  Top = 143
-  Width = 455
-  Height = 301
+  Left = 574
+  Top = 277
+  Width = 393
+  Height = 183
   Caption = 'Menu'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -27,6 +27,7 @@ object Form1: TForm1
       end
       object LOGOUT1: TMenuItem
         Caption = 'LOGOUT'
+        OnClick = LOGOUT1Click
       end
     end
     object DATAMASTER1: TMenuItem
@@ -41,9 +42,11 @@ object Form1: TForm1
       end
       object SUPPLIER1: TMenuItem
         Caption = 'SUPPLIER'
+        OnClick = SUPPLIER1Click
       end
       object KUSTOMER1: TMenuItem
         Caption = 'KUSTOMER'
+        OnClick = KUSTOMER1Click
       end
       object UESR1: TMenuItem
         Caption = 'USER'

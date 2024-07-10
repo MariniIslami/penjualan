@@ -30,6 +30,9 @@ type
     procedure FormCreate(Sender: TObject);
     procedure KATEGORI1Click(Sender: TObject);
     procedure SATUAN1Click(Sender: TObject);
+    procedure SUPPLIER1Click(Sender: TObject);
+    procedure KUSTOMER1Click(Sender: TObject);
+    procedure LOGOUT1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -42,7 +45,7 @@ var
 implementation
 
 uses
-  Login, Kategori, satuan;
+  Login, Kategori, satuan, suplier, kustomer;
 
 {$R *.dfm}
 
@@ -66,6 +69,21 @@ end;
 procedure TForm1.SATUAN1Click(Sender: TObject);
 begin
 Form4.Show;
+end;
+
+procedure TForm1.SUPPLIER1Click(Sender: TObject);
+begin
+form5.Show;
+end;
+
+procedure TForm1.KUSTOMER1Click(Sender: TObject);
+begin
+Form6.Show;
+end;
+
+procedure TForm1.LOGOUT1Click(Sender: TObject);
+begin
+   Close;
 end;
 
 end.
